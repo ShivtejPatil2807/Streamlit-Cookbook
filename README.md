@@ -10,7 +10,7 @@
 
 ## Project Status
 
-This project is currently under development 
+This project is currently under development after complete this project then deployed.
 
 ## Introduction
 
