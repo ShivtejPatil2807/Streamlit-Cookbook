@@ -5,6 +5,7 @@ ATTEMPTS = 3
 
 st.set_page_config(page_title="Guess_Game", page_icon="🎯", layout="centered")
 
+
 def initialize_state():
     Stages = {
         "logged_in": False,
@@ -135,8 +136,7 @@ def show_stage_two():
 
 
 def show_pattern_stage():
-    st.subheader("👁️ Now the real challenge begins")
-    st.write("Get Ready for the Pattern Challenge !")
+    st.subheader("🧠 Pattern Challenge")
 
     a = st.session_state.pattern_a
     b = st.session_state.pattern_b
@@ -164,7 +164,7 @@ def show_pattern_stage():
 
 
 def show_stage_four():
-    st.subheader("Welcome to the Ultimate Math Challenge !🧠⚡")
+    st.subheader("👁️ Now the real challenge begins")
     st.write("Before entering the final stage, solve this verification challenge.")
 
     a = st.session_state.challenge_a
