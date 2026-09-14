@@ -1,5 +1,17 @@
 # 🎯 Simple Guess Game
 
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit&logoColor=white)
+![License](https://img.shields.io/badge/License-Educational-green)
+
+</p>
+
+## Project Status
+
+This project is currently under development after complete this project then deployed.
+
 ## Introduction
 
 Simple Guess Game is an interactive number guessing web application built using **Python and Streamlit**. The application allows users to enter their username and play a number guessing game where they try to find a randomly generated number.
@@ -7,6 +19,12 @@ Simple Guess Game is an interactive number guessing web application built using 
 A multi-stage number guessing game built with Streamlit. Players progress through five increasingly challenging stages — from a basic guessing game to math pattern puzzles and a high-stakes final round with limited attempts to guess the number.
 
 The project provides a simple and user-friendly interface and demonstrates the use of Python programming concepts along with Streamlit for building an interactive web application.
+
+## 🔄 Major Project Update
+
+This project started as a simple **Number Guessing Game** created to practice Python and Streamlit fundamentals. As I continued learning and improving my programming skills, I decided to completely redesign and rebuild the project instead of keeping it as a basic guessing game.
+
+The project is now being upgraded into a more complete and interactive **multi-level guessing game** with a better user experience, improved game logic, multiple stages, progression, and a redesigned interface.
 
 ## ✨ Features
 
@@ -56,26 +74,44 @@ git clone https://github.com/ShivtejPatil2807/Simple-Guess-Game.git
 cd Simple-Guess-Game
 ```
 
-### 3. Install Streamlit
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+### 4. install Streamlit 
 
 ```bash
 pip install streamlit
 ```
 
-### 4. Run the Application
+### 5. Run the Application
 
 ```bash
 streamlit run game.py
 ```
 
-### 5. Open the Application
+### 6. Open the Application
 
 After running the command, Streamlit will provide a local URL in the terminal. Open that URL in your web browser to start playing the game.
 
+## 📂 Project Structure
+
+```text
+Guess-Game/
+├── game.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── screenshots/
+└── tests/
+    └── test_game_logic.py
+
+```
+
 ## 🎮 Live Demo
 
-🎯 **Play the game online:**  
-👉 [Simple Guess Game](https://simple-guess-game.streamlit.app/)
+🎯 **Play the game online:**  👉 [Simple Guess Game](https://simple-guess-game.streamlit.app/)
 
 ## 🚀 Future Improvements
 
@@ -88,7 +124,7 @@ After running the command, Streamlit will provide a local URL in the terminal. O
 
 ## ✉️ Support
 
-If you find any issue with this project or have suggestions for improvement, you can create an **Issue** in this GitHub repository.
+If you find an issue with this project or have suggestions for improvement, please open an Issue in this GitHub repository, or reach out via GitHub.
 
 ## 📄 License
 
