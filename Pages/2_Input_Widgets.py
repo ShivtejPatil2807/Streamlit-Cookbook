@@ -10,7 +10,7 @@ st.header("1. st.button()")
 st.write("A clickable button. Returns True only on the run right after it's clicked.")
 st.code('st.button("Click me")')
 if st.button("Click me"):
-    st.write("Button was clicked!")
+    st.success("Button was clicked!")
 
 st.divider()
 st.header("2. st.checkbox()")
