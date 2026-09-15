@@ -1,0 +1,38 @@
+import streamlit as st
+
+st.set_page_config(page_title="File Handling", page_icon="📁")
+
+st.title("📁 File Handling Functions")
+st.write("These functions let users upload files, or let you show/offer files.")
+
+st.divider()
+st.header("1. st.file_uploader()")
+st.write("Lets the user upload a file from their device.")
+st.code('st.file_uploader("Upload a CSV file", type="csv")')
+uploaded = st.file_uploader("Upload a CSV file", type="csv")
+if uploaded:
+    st.write("File name:", uploaded.name)
+
+st.divider()
+st.header("2. st.download_button()")
+st.write("Lets the user download a file you generate.")
+st.code('st.download_button("Download sample text", "Hello, Streamlit!", "sample.txt")')
+st.download_button("Download sample text", "Hello, Streamlit!", "sample.txt")
+
+st.divider()
+st.header("3. st.image()")
+st.write("Displays an image from a file, URL, or array.")
+st.code('st.image("https://placehold.co/300x150", caption="Sample image")')
+st.image("https://placehold.co/300x150", caption="Sample image")
+
+st.divider()
+st.header("4. st.audio()")
+st.write("Embeds an audio player for a sound file or URL.")
+st.code('st.audio(audio_bytes_or_path)')
+st.caption("Provide a local file path, URL, or bytes to try this one — no sample here.")
+
+st.divider()
+st.header("5. st.video()")
+st.write("Embeds a video player for a video file or URL.")
+st.code('st.video(video_bytes_or_path)')
+st.caption("Provide a local file path, URL, or bytes to try this one — no sample here.")
