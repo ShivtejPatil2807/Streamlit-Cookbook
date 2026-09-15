@@ -41,5 +41,4 @@ st.code(
 st.write(st.session_state.username)'''
 )
 st.text_input("Your name", key="username")
-st.write("Stored value:", 
-         st.session_state.get("username", ""))
+st.write("Stored value:", st.session_state.get("username", ""))
