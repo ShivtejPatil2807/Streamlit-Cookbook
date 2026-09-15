@@ -73,4 +73,6 @@ st.header("10. st.date_input()")
 st.write("Lets the user pick a date from a calendar.")
 st.code('st.date_input("Pick a date")')
 date = st.date_input("Pick a date")
-st.write("Date chosen:", date)
+st.write("Date chosen: ", date)
+ 
+

@@ -8,7 +8,7 @@ st.write("These functions show data — tables, numbers, and raw structures.")
 
 df = pd.DataFrame({
     "Name": ["Shivtej", "Tejas", "Amit"],
-    "Score": [90, 85, 78],
+    "Score": [70, 85, 78],
 })
 
 st.divider()
