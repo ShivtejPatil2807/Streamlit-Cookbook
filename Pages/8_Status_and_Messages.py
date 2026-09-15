@@ -54,6 +54,7 @@ st.header("7. st.toast()")
 st.write("Shows a small temporary notification in the corner of the screen.")
 st.code('st.toast("Saved!")')
 if st.button("Show toast"):
+    
     st.toast("Saved!")
 
 st.divider()
@@ -62,3 +63,5 @@ st.write("Celebrates with floating balloons across the screen.")
 st.code('st.balloons()')
 if st.button("Launch balloons"):
     st.balloons()
+
+
