@@ -36,5 +36,4 @@ st.divider()
 st.header("4. st.image() as a logo/banner")
 st.write("Images aren't just for content — they're often used as logos or banners.")
 st.code('st.image("https://placehold.co/400x80", use_container_width=True)')
-st.image("https://placehold.co/400x80", 
-         use_container_width=True)
+st.image("https://placehold.co/400x80", use_container_width=True)
