@@ -24,7 +24,6 @@ if st.button("Jump to Home"):
 st.divider()
 st.header("3. How multipage apps work")
 st.write(
-    
     "Any .py file placed in a folder named pages/, next to your main script, "
     "automatically shows up as its own page in the sidebar — no extra setup needed. "
     "Streamlit orders them by filename, so this repo uses numbered prefixes like "
