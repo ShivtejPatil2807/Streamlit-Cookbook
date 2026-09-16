@@ -16,7 +16,7 @@ with st.chat_message("assistant"):
     st.write("Hi there, how can I help?")'''
 )
 with st.chat_message("user"):
-    st.write("Hello!  ")
+    st.write("Hello!")
 with st.chat_message("assistant"):
     st.write("Hi there, how can I help?")
 
