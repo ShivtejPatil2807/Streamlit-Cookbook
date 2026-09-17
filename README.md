@@ -213,7 +213,7 @@ The project provides a simple and user-friendly interface and demonstrates the u
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ShivtejPatil2807/Simple-Guess-Game.git
+git clone https://github.com/ShivtejPatil2807/Streamlit-Cookbook.git
 ```
 
 ### 2. Navigate to the Project Directory
