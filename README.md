@@ -245,8 +245,7 @@ After running the command, Streamlit will provide a local URL in the terminal. O
 
 ## 🎯 Live Demo
 
- **Play the game online:**  👉 [Simple Guess Game](https://simple-guess-game.streamlit.app/)
-
+ **Play the game online:**  👉 [Simple Guess Game](https://app-cookbook-c2j2fqseqksdetket37xxp.streamlit.app/)
 ##  Future Improvements
 
 * **Add difficulty levels.**
