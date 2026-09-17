@@ -5,7 +5,7 @@ one function at a time, with real, runnable examples.
 
 ### 🚀 Try it live
 
-**[👉 Open the live app and learn from here]([shivtejpatil2807-streamlit-cookbook-ho2l87ycme](https://shivtejpatil2807-streamlit-cookbook-home-2l87yc.streamlit.app/))**
+**[👉 Open the live app and learn from here](https://shivtejpatil2807-streamlit-cookbook-home-2l87yc.streamlit.app/)**
 
 No setup needed — just open the link, pick a topic from the sidebar, and
 see every function's code and output side by side in your browser.
