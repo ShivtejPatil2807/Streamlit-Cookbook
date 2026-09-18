@@ -1,18 +1,18 @@
-# 📚 Streamlit Cookbook
+# 📚 Streamlit Learning Lab
 
 A hands-on, beginner-friendly reference repo for learning **Streamlit** —
 one function at a time, with real, runnable examples.
 
-### 🚀 Try it live
+### Try it live
 
-**[👉 Open the live app and learn from here](https://shivtejpatil2807-streamlit-cookbook-home-2l87yc.streamlit.app/)**
+**[Open the live app and learn from here](https://shivtejpatil2807-streamlit-cookbook-home-2l87yc.streamlit.app/)**
 
 No setup needed — just open the link, pick a topic from the sidebar, and
 see every function's code and output side by side in your browser.
 
 ---
 
-## 📖 What is Streamlit?
+## What is Streamlit?
 
 [Streamlit](https://streamlit.io/) is an open-source Python library that lets
 you build interactive web apps — dashboards, data tools, ML demos, forms —
@@ -26,9 +26,9 @@ bottom** and updates the page automatically.
 
 **Why people like it:**
 - ⚡ Extremely fast to build with — a working app in a few lines of code
-- 🐍 Pure Python — no separate frontend code to write or maintain
-- 🔄 Auto-reload while developing — save the file, see the change instantly
-- 📊 Built for data — plays naturally with pandas, NumPy, matplotlib, and ML models
+- 🐍 Pure Python — no separate frontend code to write or maintain 
+- 🔄 Auto-reload while developing — save the file, see the change instantly 
+- 📊 Built for data — plays naturally with pandas, NumPy, matplotlib, and ML models 
 - 🌐 Easy to deploy — including free hosting on [Streamlit Community Cloud](https://streamlit.io/cloud)
 
 **Install it:**
@@ -43,7 +43,7 @@ streamlit run Home.py
 
 ---
 
-## 🗺️ How this repo works
+## How this repo works
 
 This repo covers Streamlit **topic by topic**. Every page follows the exact
 same three-part pattern for each function, so you always know what you're
@@ -57,31 +57,31 @@ Click any topic below to jump straight to its file and start learning.
 
 ---
 
-## 🧭 Topics covered (in order)
+## Topics covered (in order)
 
 | # | Topic | Link | What you'll learn |
 |---|-------|------|--------------------|
-| 1 | ✍️ Text & Markdown | [pages/01_Text_and_Markdown.py](pages/01_Text_and_Markdown.py) | `title`, `header`, `subheader`, `write`, `markdown`, `caption`, `code`, `divider`, `table`, `expander` |
-| 2 | 🔘 Input Widgets | [pages/02_Input_Widgets.py](pages/02_Input_Widgets.py) | `button`, `checkbox`, `radio`, `selectbox`, `multiselect`, `slider`, `text_input`, `text_area`, `number_input`, `date_input` |
-| 3 | 📐 Layouts | [pages/03_Layouts.py](pages/03_Layouts.py) | `columns`, `tabs`, `container`, `sidebar`, `empty` |
-| 4 | 📊 Data Display | [pages/04_Data_Display.py](pages/04_Data_Display.py) | `dataframe`, `table`, `metric`, `json` |
-| 5 | 📈 Charts | [pages/05_Charts.py](pages/05_Charts.py) | `line_chart`, `bar_chart`, `area_chart`, `scatter_chart`, `map` |
-| 6 | 📁 File Handling | [pages/06_File_Handling.py](pages/06_File_Handling.py) | `file_uploader`, `download_button`, `image`, `audio`, `video` |
-| 7 | 🎨 UI & Styling | [pages/07_UI_and_Styling.py](pages/07_UI_and_Styling.py) | `set_page_config`, `color_picker`, custom CSS with `st.markdown` |
-| 8 | 💬 Status & Messages | [pages/08_Status_and_Messages.py](pages/08_Status_and_Messages.py) | `success`, `error`, `warning`, `info`, `progress`, `spinner`, `toast`, `balloons` |
-| 9 | 🧠 Session State | [pages/09_Session_State.py](pages/09_Session_State.py) | reading and writing `st.session_state` across reruns |
-| 10 | 📝 Forms | [pages/10_Forms.py](pages/10_Forms.py) | `form`, `form_submit_button` |
-| 11 | ⚡ Caching | [pages/11_Caching.py](pages/11_Caching.py) | `cache_data`, `cache_resource` |
-| 12 | 💬 Chat Elements | [pages/12_Chat_Elements.py](pages/12_Chat_Elements.py) | `chat_message`, `chat_input` |
-| 13 | 🔄 Navigation | [pages/13_Navigation.py](pages/13_Navigation.py) | `page_link`, `switch_page`, how multipage apps work |
-| 14 | 🔐 Authentication | [pages/14_Authentication.py](pages/14_Authentication.py) | DIY `session_state` login pattern, `st.login()` overview |
+| 1 | Text & Markdown | [pages/01_Text_and_Markdown.py](pages/01_Text_and_Markdown.py) | `title`, `header`, `subheader`, `write`, `markdown`, `caption`, `code`, `divider`, `table`, `expander` |
+| 2 | Input Widgets | [pages/02_Input_Widgets.py](pages/02_Input_Widgets.py) | `button`, `checkbox`, `radio`, `selectbox`, `multiselect`, `slider`, `text_input`, `text_area`, `number_input`, `date_input` |
+| 3 | Layouts | [pages/03_Layouts.py](pages/03_Layouts.py) | `columns`, `tabs`, `container`, `sidebar`, `empty` |
+| 4 | Data Display | [pages/04_Data_Display.py](pages/04_Data_Display.py) | `dataframe`, `table`, `metric`, `json` |
+| 5 | Charts | [pages/05_Charts.py](pages/05_Charts.py) | `line_chart`, `bar_chart`, `area_chart`, `scatter_chart`, `map` |
+| 6 | File Handling | [pages/06_File_Handling.py](pages/06_File_Handling.py) | `file_uploader`, `download_button`, `image`, `audio`, `video` |
+| 7 | UI & Styling | [pages/07_UI_and_Styling.py](pages/07_UI_and_Styling.py) | `set_page_config`, `color_picker`, custom CSS with `st.markdown` |
+| 8 | Status & Messages | [pages/08_Status_and_Messages.py](pages/08_Status_and_Messages.py) | `success`, `error`, `warning`, `info`, `progress`, `spinner`, `toast`, `balloons` |
+| 9 | Session State | [pages/09_Session_State.py](pages/09_Session_State.py) | reading and writing `st.session_state` across reruns |
+| 10 | Forms | [pages/10_Forms.py](pages/10_Forms.py) | `form`, `form_submit_button` |
+| 11 | Caching | [pages/11_Caching.py](pages/11_Caching.py) | `cache_data`, `cache_resource` |
+| 12 | Chat Elements | [pages/12_Chat_Elements.py](pages/12_Chat_Elements.py) | `chat_message`, `chat_input` |
+| 13 | Navigation | [pages/13_Navigation.py](pages/13_Navigation.py) | `page_link`, `switch_page`, how multipage apps work |
+| 14 | Authentication | [pages/14_Authentication.py](pages/14_Authentication.py) | DIY `session_state` login pattern, `st.login()` overview |
 
-> 💡 Tip: read them in order the first time through — later pages
+> Tip: read them in order the first time through — later pages
 > sometimes reuse ideas (like `session_state`) introduced earlier.
 
 ---
 
-## 📂 Project structure
+## Project structure
 
 ```
 streamlit-cookbook/
@@ -115,7 +115,7 @@ don't need to register pages anywhere; just drop a new `.py` file into
 
 ---
 
-## ▶️ Running locally
+## Running locally
 
 ```bash
 # 1. Clone the repo
@@ -133,7 +133,7 @@ Your browser will open automatically at `http://localhost:8501`.
 
 ---
 
-## 🔑 Core Streamlit concepts (good to know before diving in)
+## Core Streamlit concepts (good to know before diving in)
 
 - **Script reruns, not page reloads** — every interaction reruns your whole
   `.py` file top to bottom. Streamlit is fast enough that this feels instant.
@@ -150,20 +150,20 @@ Your browser will open automatically at `http://localhost:8501`.
 
 ---
 
-## 👤 Who this is for
+## Who this is for
 
 Beginners learning Streamlit from scratch, or anyone who wants a quick,
 copy-paste reference for a specific function without digging through the
 full [official docs](https://docs.streamlit.io/).
 
-## 📚 Further reading
+## Further reading
 
 - [Streamlit official docs](https://docs.streamlit.io/)
 - [Streamlit API reference](https://docs.streamlit.io/develop/api-reference)
 - [Streamlit Community Cloud (free deployment)](https://streamlit.io/cloud)
 - [Streamlit forum](https://discuss.streamlit.io/)
 
-## Featured Project: 🎯 Simple Guess Game
+## Featured Project: Simple Guess Game
 
 <p align="center">
 
@@ -181,7 +181,7 @@ A multi-stage number guessing game built with Streamlit. Players progress throug
 
 The project provides a simple and user-friendly interface and demonstrates the use of Python programming concepts along with Streamlit for building an interactive web application.
 
-## ✨ Features
+## Features
 
 * **User Login:** Users can enter their username before starting the game.
 * **Random Number Generation:** The application generates a random number for the user to guess.
@@ -194,7 +194,7 @@ The project provides a simple and user-friendly interface and demonstrates the u
 * **Interactive UI:** The application provides a simple and interactive Streamlit interface.
 * **Session State:** Streamlit session state is used to maintain the user's game information during the session.
 
-## ⚙️ How It Works
+## How It Works
 
 1. The user enters their username.
 2. The game starts after submitting the username.
@@ -208,7 +208,7 @@ The project provides a simple and user-friendly interface and demonstrates the u
 10. If the player fails, the game-over screen is displayed.
 11. The player can start another game.
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -243,10 +243,10 @@ streamlit run game.py
 
 After running the command, Streamlit will provide a local URL in the terminal. Open that URL in your web browser to start playing the game.
 
-## 🎯 Live Demo
+## Live Demo
 
- **Play the game online:**  👉 [Simple Guess Game](https://app-cookbook-c2j2fqseqksdetket37xxp.streamlit.app/)
-##  Future Improvements
+**Play the game online:** [Simple Guess Game](https://app-cookbook-c2j2fqseqksdetket37xxp.streamlit.app/)
+## Future Improvements
 
 * **Add difficulty levels.**
 * **Add a score system.**
@@ -255,9 +255,9 @@ After running the command, Streamlit will provide a local URL in the terminal. O
 * **Store player scores.**
 * **Add more game stages.**
 
-## 📄 License
+## License
 
 This project is available for educational and learning purposes.
 
 ---
-⭐ If you like this project, consider giving the repository a star!
+If you like this project, consider giving the repository a star!
