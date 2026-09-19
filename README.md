@@ -175,9 +175,9 @@ full [official docs](https://docs.streamlit.io/).
 
 ## Introduction
 
-Simple Guess Game is an interactive number guessing web application built using **Python and Streamlit**. The application allows users to enter their username and play a number guessing game where they try to find a randomly generated number.
+Guess Quest is an interactive multi-stage number guessing web application built with Python and Streamlit, enhanced with HTML and CSS to create a modern, visually engaging user interface.
 
-A multi-stage number guessing game built with Streamlit. Players progress through five increasingly challenging stages — from a basic guessing game to math pattern puzzles and a high-stakes final round with limited attempts to guess the number.
+The game takes players through five challenging stages, starting with a number guessing challenge and progressing through an instructions stage, a mathematical pattern puzzle, a verification challenge, and a high-stakes final guessing round with limited attempts.
 
 The project provides a simple and user-friendly interface and demonstrates the use of Python programming concepts along with Streamlit for building an interactive web application.
 
