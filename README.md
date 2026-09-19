@@ -174,12 +174,11 @@ full [official docs](https://docs.streamlit.io/).
 </p>
 
 ## Introduction
-
 Guess Quest is an interactive multi-stage number guessing web application built with Python and Streamlit, enhanced with HTML and CSS to create a modern, visually engaging user interface.
 
 The game takes players through five challenging stages, starting with a number guessing challenge and progressing through an instructions stage, a mathematical pattern puzzle, a verification challenge, and a high-stakes final guessing round with limited attempts.
 
-The project provides a simple and user-friendly interface and demonstrates the use of Python programming concepts along with Streamlit for building an interactive web application.
+The project combines Python game logic, Streamlit components, HTML-based layouts, and custom CSS styling to create an interactive and user-friendly gaming experience. It also demonstrates concepts such as random number generation, conditional logic, functions, forms, session state, user input handling, and stage-based progression.
 
 ## Features
 
